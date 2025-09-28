@@ -1,0 +1,11 @@
+[project]
+name = "hiipapp-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "playwright>=1.55.0",
+    "pytest>=8.4.2",
+    "pytest-xdist>=3.8.0",
+]
